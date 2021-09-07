@@ -218,6 +218,24 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/incr/covmat`][@stdlib/stats/incr/covmat]: compute an unbiased sample covariance matrix incrementally.
+-   [`@stdlib/stats/incr/pcorr`][@stdlib/stats/incr/pcorr]: compute a sample Pearson product-moment correlation coefficient.
+-   [`@stdlib/stats/incr/pcorrdistmat`][@stdlib/stats/incr/pcorrdistmat]: compute a sample Pearson product-moment correlation distance matrix incrementally.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -278,6 +296,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [covariance]: https://en.wikipedia.org/wiki/Covariance
 
 [@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/covmat]: https://github.com/stdlib-js/stats-incr-covmat
+
+[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats-incr-pcorr
+
+[@stdlib/stats/incr/pcorrdistmat]: https://github.com/stdlib-js/stats-incr-pcorrdistmat
+
+<!-- </related-links> -->
 
 </section>
 
