@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-pcorrmat",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Compute a sample Pearson product-moment correlation matrix incrementally.",
   "license": "Apache-2.0",
   "author": {
