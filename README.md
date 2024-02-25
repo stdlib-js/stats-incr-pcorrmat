@@ -80,7 +80,7 @@ r = \frac{\displaystyle\sum_{i=0}^{n-1} (x_i - \bar{x})(y_i - \bar{y})}{\display
 ## Usage
 
 ```javascript
-import incrpcorrmat from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-pcorrmat@deno/mod.js';
+import incrpcorrmat from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-pcorrmat@v0.2.1-deno/mod.js';
 ```
 
 #### incrpcorrmat( out\[, means] )
@@ -191,7 +191,7 @@ out = accumulator();
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import incrpcorrmat from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-pcorrmat@deno/mod.js';
+import incrpcorrmat from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-pcorrmat@v0.2.1-deno/mod.js';
 
 var corr;
 var rxy;
