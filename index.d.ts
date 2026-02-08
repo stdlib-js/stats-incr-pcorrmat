@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,17 +16,35 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Compute a sample Pearson product-moment correlation matrix incrementally.
+* If provided a data vector, the accumulator function returns an updated sample correlation matrix. If not provided a data vector, the accumulator function returns the current sample correlation matrix.
 *
-* @module @stdlib/stats-incr-pcorrmat
+* @param vector - data vector
+* @throws must provide a 1-dimensional ndarray
+* @throws vector length must match correlation matrix dimensions
+* @returns sample correlation matrix or null
+*/
+type accumulator = ( vector?: ndarray ) => ndarray | null;
+
+/**
+* Returns an accumulator function which incrementally computes a sample Pearson product-moment correlation matrix.
+*
+* @param out - order of the correlation matrix or a square 2-dimensional output ndarray for storing the correlation matrix
+* @param means - mean values
+* @throws first argument must be either a positive integer or a 2-dimensional ndarray having equal dimensions
+* @throws second argument must be a 1-dimensional ndarray
+* @throws number of means must match correlation matrix dimensions
+* @returns accumulator function
 *
 * @example
 * var Float64Array = require( '@stdlib/array-float64' );
 * var ndarray = require( '@stdlib/ndarray-ctor' );
-* var incrpcorrmat = require( '@stdlib/stats-incr-pcorrmat' );
 *
 * // Create an output correlation matrix:
 * var buffer = new Float64Array( 4 );
@@ -70,12 +88,9 @@
 * out = accumulator();
 * // returns <ndarray>
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function incrpcorrmat( out: number | ndarray, means?: ndarray ): accumulator;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = incrpcorrmat;
