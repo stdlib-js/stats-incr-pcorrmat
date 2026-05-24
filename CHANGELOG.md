@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-20)
+## Unreleased (2026-05-24)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`8fdaa49`](https://github.com/stdlib-js/stdlib/commit/8fdaa498fe75d79607e9f7376ec69c2ca92a2316) - **refactor:** use `format` for error construction in `stats/incr/pcorrmat` [(#12268)](https://github.com/stdlib-js/stdlib/pull/12268) _(by Philipp Burckhardt)_
 -   [`a07ad1c`](https://github.com/stdlib-js/stdlib/commit/a07ad1c13b9d2428b8897f47c6c78c6bfb0a235d) - **bench:** refactor to use string interpolation in `stats/incr` [(#11394)](https://github.com/stdlib-js/stdlib/pull/11394) _(by Karan Anand)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
