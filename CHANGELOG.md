@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-18)
+## Unreleased (2026-09-01)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`5bf9238`](https://github.com/stdlib-js/stdlib/commit/5bf9238a8e85a468447d087eabcf6cc9ce653785) - **test:** migrate `stats/incr/pcorrmat` to ULP-based assertions [(#14861)](https://github.com/stdlib-js/stdlib/pull/14861) _(by Athan Reines)_
 -   [`8fdaa49`](https://github.com/stdlib-js/stdlib/commit/8fdaa498fe75d79607e9f7376ec69c2ca92a2316) - **refactor:** use `format` for error construction in `stats/incr/pcorrmat` [(#12268)](https://github.com/stdlib-js/stdlib/pull/12268) _(by Philipp Burckhardt)_
 -   [`a07ad1c`](https://github.com/stdlib-js/stdlib/commit/a07ad1c13b9d2428b8897f47c6c78c6bfb0a235d) - **bench:** refactor to use string interpolation in `stats/incr` [(#11394)](https://github.com/stdlib-js/stdlib/pull/11394) _(by Karan Anand)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 -   Philipp Burckhardt
 
